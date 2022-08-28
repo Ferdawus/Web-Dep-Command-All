@@ -2,3 +2,8 @@
 
 ** php artisan serve
 ** php artisan key:generate
+** php artisan migrate:rollback
+
+php artisan db:seed
+php artisan db:seed --class=UserSeeder
+php artisan migrate:fresh --seed
